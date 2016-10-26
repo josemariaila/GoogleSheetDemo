@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8E1BE01DBF7F25004C6A8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E1BDF1DBF7F25004C6A8F /* AppDelegate.swift */; };
+		6B8E1BE21DBF7F25004C6A8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E1BE11DBF7F25004C6A8F /* ViewController.swift */; };
+		6B8E1BEA1DBF7F25004C6A8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8E1BE81DBF7F25004C6A8F /* LaunchScreen.storyboard */; };
+		6B8E1BF81DC0C567004C6A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8E1BF71DC0C567004C6A8F /* Assets.xcassets */; };
+		72DBEBB683D21DCE539B3EDB /* Pods_GoogleSheetDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E466B7113082441CD6B9DA64 /* Pods_GoogleSheetDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B8E1BDC1DBF7F25004C6A8F /* GoogleSheetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSheetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8E1BDF1DBF7F25004C6A8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B8E1BE11DBF7F25004C6A8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B8E1BE91DBF7F25004C6A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B8E1BEB1DBF7F25004C6A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8E1BF71DC0C567004C6A8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7EC5CFFF113FA495D827F5C /* Pods-GoogleSheetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSheetDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSheetDemo/Pods-GoogleSheetDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CAF12BE26E9D17F331A4F522 /* Pods-GoogleSheetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSheetDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSheetDemo/Pods-GoogleSheetDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E466B7113082441CD6B9DA64 /* Pods_GoogleSheetDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSheetDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8E1BD91DBF7F25004C6A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DBEBB683D21DCE539B3EDB /* Pods_GoogleSheetDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340C503EA8FFFA259BB0BEC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7EC5CFFF113FA495D827F5C /* Pods-GoogleSheetDemo.debug.xcconfig */,
+				CAF12BE26E9D17F331A4F522 /* Pods-GoogleSheetDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B8E1BD31DBF7F25004C6A8F = {
+			isa = PBXGroup;
+			children = (
+				6B8E1BDE1DBF7F25004C6A8F /* GoogleSheetDemo */,
+				6B8E1BDD1DBF7F25004C6A8F /* Products */,
+				340C503EA8FFFA259BB0BEC0 /* Pods */,
+				7581C45125138F12B5FA611D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8E1BDD1DBF7F25004C6A8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E1BDC1DBF7F25004C6A8F /* GoogleSheetDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8E1BDE1DBF7F25004C6A8F /* GoogleSheetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E1BDF1DBF7F25004C6A8F /* AppDelegate.swift */,
+				6B8E1BF51DC0C567004C6A8F /* Resources */,
+				6B8E1BF91DC0C571004C6A8F /* Supporting Files */,
+				6B8E1BE11DBF7F25004C6A8F /* ViewController.swift */,
+			);
+			path = GoogleSheetDemo;
+			sourceTree = "<group>";
+		};
+		6B8E1BF51DC0C567004C6A8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E1BF61DC0C567004C6A8F /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B8E1BF61DC0C567004C6A8F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E1BF71DC0C567004C6A8F /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6B8E1BF91DC0C571004C6A8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E1BEB1DBF7F25004C6A8F /* Info.plist */,
+				6B8E1BE81DBF7F25004C6A8F /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7581C45125138F12B5FA611D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E466B7113082441CD6B9DA64 /* Pods_GoogleSheetDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8E1BDB1DBF7F25004C6A8F /* GoogleSheetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8E1BEE1DBF7F25004C6A8F /* Build configuration list for PBXNativeTarget "GoogleSheetDemo" */;
+			buildPhases = (
+				C0E03BF1485D5ED0EC3886C3 /* [CP] Check Pods Manifest.lock */,
+				6B8E1BD81DBF7F25004C6A8F /* Sources */,
+				6B8E1BD91DBF7F25004C6A8F /* Frameworks */,
+				6B8E1BDA1DBF7F25004C6A8F /* Resources */,
+				897BAE9A5EB2FC6542AB8288 /* [CP] Embed Pods Frameworks */,
+				CAC2FD962AA88DFB9984E460 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleSheetDemo;
+			productName = GoogleSheetDemo;
+			productReference = 6B8E1BDC1DBF7F25004C6A8F /* GoogleSheetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8E1BD41DBF7F25004C6A8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vector Mobile";
+				TargetAttributes = {
+					6B8E1BDB1DBF7F25004C6A8F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B8E1BD71DBF7F25004C6A8F /* Build configuration list for PBXProject "GoogleSheetDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B8E1BD31DBF7F25004C6A8F;
+			productRefGroup = 6B8E1BDD1DBF7F25004C6A8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8E1BDB1DBF7F25004C6A8F /* GoogleSheetDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8E1BDA1DBF7F25004C6A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8E1BF81DC0C567004C6A8F /* Assets.xcassets in Resources */,
+				6B8E1BEA1DBF7F25004C6A8F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		897BAE9A5EB2FC6542AB8288 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSheetDemo/Pods-GoogleSheetDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E03BF1485D5ED0EC3886C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC2FD962AA88DFB9984E460 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSheetDemo/Pods-GoogleSheetDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8E1BD81DBF7F25004C6A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8E1BE21DBF7F25004C6A8F /* ViewController.swift in Sources */,
+				6B8E1BE01DBF7F25004C6A8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B8E1BE81DBF7F25004C6A8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8E1BE91DBF7F25004C6A8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8E1BEC1DBF7F25004C6A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B8E1BED1DBF7F25004C6A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8E1BEF1DBF7F25004C6A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EC5CFFF113FA495D827F5C /* Pods-GoogleSheetDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleSheetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vectormobile.GoogleSheetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B8E1BF01DBF7F25004C6A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF12BE26E9D17F331A4F522 /* Pods-GoogleSheetDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleSheetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vectormobile.GoogleSheetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8E1BD71DBF7F25004C6A8F /* Build configuration list for PBXProject "GoogleSheetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8E1BEC1DBF7F25004C6A8F /* Debug */,
+				6B8E1BED1DBF7F25004C6A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8E1BEE1DBF7F25004C6A8F /* Build configuration list for PBXNativeTarget "GoogleSheetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8E1BEF1DBF7F25004C6A8F /* Debug */,
+				6B8E1BF01DBF7F25004C6A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8E1BD41DBF7F25004C6A8F /* Project object */;
+}
